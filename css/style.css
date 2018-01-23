@@ -644,6 +644,7 @@ header {
     padding: 40px 20px;
     border: 1px solid #EEE;
     margin: 15px 0px;
+    background-color: #FFF;
 }
 .about p {
     font-size: 18px;
@@ -691,6 +692,7 @@ header {
     padding: 40px 20px 40px 70px;
     margin: 15px 0px;
     border: 1px solid #EEE;
+    background-color: #FFF;
 }
 
 .service i {
