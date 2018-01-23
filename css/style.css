@@ -199,11 +199,11 @@ ul, ol {
 
 /* --  Input  -- */
 
-input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea, .contact-form select {
     height: 40px;
     width: 100%;
     border: none;
-	  background: #F4F4F4;
+	background: #F4F4F4;
     border-bottom: 2px solid #EEE;
     color: #354052;
     padding: 0px 10px;
@@ -214,7 +214,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
 
 textarea {
     padding: 10px 10px;
-    min-height: 80px;
+    min-height: 125px;
     resize: vertical;
 }
 
@@ -1353,14 +1353,44 @@ header {
     margin-bottom: 20px;
 }
 
+.contact-form label {
+    float: left;
+    margin-left: 10px;
+    font-weight: 500;
+}
 
-.contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
+#contact .contact-title {
+    margin: 50px auto 0 auto;
+    width: 100%;
+    font-weight: 700;
+}
+
+#contact .contact-title:after {
+    content:"";
+    display:block;
+    height:2px;
+    width:30px;
+    background-color: #bc904f;
+    margin: 10px auto 0 auto;
+}
+
+
+
+/*
+.contact-form .input:nth-child(1), 
+.contact-form .input:nth-child(2), 
+.contact-form .input:nth-child(3), 
+.contact-form .input:nth-child(4),
+.contact-form .input:nth-child(5),
+.contact-form select {
     width: calc(50% - 10px);
 }
 
-.contact-form .input:nth-child(2) {
+.contact-form .input:nth-child(2),
+.contact-form .input:nth-child(4),
+.contact-form select {
     margin-left: 15px;
-}
+}*/
 
 /*------------------------------------*\
 	Footer
