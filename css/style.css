@@ -806,6 +806,11 @@ header {
     text-transform: uppercase;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
+    line-height: 50px;
+}
+
+.pricing .combo-price-title {
+    line-height: 25px;
 }
 
 .pricing:hover .price-title {
@@ -823,8 +828,8 @@ header {
 
 .pricing .price {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     line-height: 140px;
     text-align: center;
     margin: auto;
