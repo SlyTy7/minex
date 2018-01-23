@@ -607,7 +607,7 @@ header {
 }
 
 .home-content .sub-heading {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .home-content a {
@@ -810,6 +810,15 @@ header {
 
 .pricing:hover .price-title {
     color: #bc904f;
+}
+
+.pricing .hosting-title:after {
+    content:"";
+    display:block;
+    height:2px;
+    width:30px;
+    background-color: #bc904f;
+    margin: 10px auto 0 auto;
 }
 
 .pricing .price {
