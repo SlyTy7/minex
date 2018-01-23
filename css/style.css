@@ -212,6 +212,13 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
     transition: 0.2s border-color, 0.2s opacity;
 }
 
+input[type="date"] {
+    display: block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 40px;
+}
+
 textarea {
     padding: 10px 10px;
     min-height: 125px;
