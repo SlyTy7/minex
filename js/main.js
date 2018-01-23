@@ -95,6 +95,13 @@
 	});
 
 	///////////////////////////
+	// matchHeight
+	$(function() {
+		$('.match-height').matchHeight();
+
+	});
+
+	///////////////////////////
 	// Owl Carousel
 	$('#about-slider').owlCarousel({
 		items:1,
