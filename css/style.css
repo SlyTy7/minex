@@ -676,6 +676,10 @@ header {
     transition: 0.2s width;
 }
 
+.about:hover {
+    background-color: #1C1D21;
+}
+
 .about:hover:after {
     width: 100%;
 }
@@ -709,6 +713,10 @@ header {
     font-size: 32px;
     color: #bc904f;
     border-radius: 50%;
+}
+
+.service:hover {
+    background-color: #1C1D21;
 }
 
 .service:after {
